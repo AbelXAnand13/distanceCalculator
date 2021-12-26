@@ -28,5 +28,5 @@ int main() {
     cin >> points2.x;
     cout << "Enter the second y value\n";
     cin >> points2.y;
-    cout << distanceCalcuator(points1.x, points1.y, points2.x, points2.y);
+    cout << "Distance = " << distanceCalcuator(points1.x, points1.y, points2.x, points2.y);
 }
